@@ -4,7 +4,7 @@ export PATH_trojan=${PATH_trojan-/$UUID-trojan}
 export PATH_vmess=${PATH_vmess-/$UUID-vmess}
 $
 
-tar -xzvf Spotify-master.zip
+tar -xzvf page.tar.gz
 
 chmod +x ./caddy
 ./caddy start
